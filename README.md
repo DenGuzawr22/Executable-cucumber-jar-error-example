@@ -11,3 +11,6 @@ For produce jar file `./gradlew SystemTester:build`
 Jar file will be in `Systemtester/build/output/` folder
 
 Or you can get already produced by me jar file in `ProducedJar/` folder
+
+## Else
+Dependencies versions can be see in `gradle/libs.versions.toml`
