@@ -5,7 +5,6 @@ version = "1.0-SNAPSHOT"
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.kotlin.jvm)
-    alias(libs.plugins.johnrengelman.shadow)
 }
 
 repositories {

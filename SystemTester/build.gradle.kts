@@ -1,4 +1,3 @@
-import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 group = "libs.client"
 version = "1.0-SNAPSHOT"
 
@@ -6,9 +5,6 @@ version = "1.0-SNAPSHOT"
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.kotlin.jvm)
-    alias(libs.plugins.johnrengelman.shadow)
-
-    alias(libs.plugins.cucumber.runner)
 
     application
 }
@@ -25,7 +21,6 @@ dependencies {
 
     //Cucumber
     implementation(libs.bundles.cucumber)
-    testRuntimeOnly(libs.junit.vintage)
 }
 
 tasks.test {

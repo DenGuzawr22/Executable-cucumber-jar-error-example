@@ -10,7 +10,6 @@ class Main{
                 "--glue", "client.cucumber",
                 "--plugin", "html:build/reports/cucumber",
                 "classpath:features")
-
         }
     }
 }
